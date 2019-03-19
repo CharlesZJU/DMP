@@ -66,10 +66,10 @@ object BaiduLBSHandler {
 
   private def requetParams(lng: String, lat: String) = {
 
-      //3eWFUfbFLTMopRpY1xk9BRD3iFdxo3r4
-      //rvGCL2H2iEScXwNgZvGplcyRsnDC2x9j
+      //8QKV5TVDChIgkzN7YUAiGbNYlBsoHGUH
+      //OuIdV2YGMuwSR3wiL6aYhnGq9znuO4uG
 
-    val list  ="3eWFUfbFLTMopRpY1xk9BRD3iFdxo3r4,rvGCL2H2iEScXwNgZvGplcyRsnDC2x9j"
+    val list  ="8QKV5TVDChIgkzN7YUAiGbNYlBsoHGUH,OuIdV2YGMuwSR3wiL6aYhnGq9znuO4uG"
 
     val Array(ak, sk) = list.split(",")
 
